@@ -68,6 +68,7 @@ class ViewController: UIViewController {
           
           @objc func makeStep(){
               print("Seconds: \(counter)")
+              // asdasdasd
               if counter < 10{
                   seconds = "0\(counter)"
               } else{
